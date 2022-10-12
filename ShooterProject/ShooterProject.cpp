@@ -4,6 +4,6 @@
 #include "Modules/ModuleManager.h"
 #include "CoreMinimal.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, ShooterProject, "ShooterProject" );
+IMPLEMENT_PRIMARY_GAME_MODULE(FDefaultGameModuleImpl, ShooterProject, "ShooterProject");
 
-DECLARE_LOG_CATEGORY_EXTERN(LogShooterProject, Log, All);
+DEFINE_LOG_CATEGORY(LogShooterProject)
